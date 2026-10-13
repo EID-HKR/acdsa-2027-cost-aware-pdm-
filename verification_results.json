@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "rows": 220,
+  "columns": 17,
+  "missing_values": 0,
+  "tests": [
+    "dataset shape/completeness",
+    "prediction metrics",
+    "baseline threshold and cost",
+    "sensitivity thresholds",
+    "hospital/home scenario",
+    "environment counterfactuals",
+    "independent cost summation",
+    "device-specific policy lower bound"
+  ],
+  "device_specific_cost": 81559.7144444141,
+  "common_threshold_min_cost": 81768.81592469304,
+  "note": "Internal computational verification only; synthetic labels and costs are not externally validated."
+}

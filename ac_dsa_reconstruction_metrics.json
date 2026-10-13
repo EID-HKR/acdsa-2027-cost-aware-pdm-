@@ -1,0 +1,41 @@
+{
+  "n": 220,
+  "train_n": 176,
+  "test_n": 44,
+  "mae": 0.03230188626569208,
+  "rmse": 0.05136446939108823,
+  "r2": 0.96181038394106,
+  "importance_percent": {
+    "Environment": 58.5941114321463,
+    "History": 26.13384257321945,
+    "Technical": 15.27204599463426
+  },
+  "features": [
+    "temperature_avg",
+    "humidity_avg",
+    "last_maintenance_days",
+    "uptime_hours",
+    "sensor_1",
+    "sensor_2",
+    "vibration",
+    "voltage_fluctuation",
+    "pressure"
+  ],
+  "model": "sklearn GradientBoostingRegressor(default parameters except random_state=42)",
+  "split": "80/20, random_state=42",
+  "baseline_optimal_threshold": 0.3,
+  "baseline_minimum_cost": 81768.81592469304,
+  "cost_sensitivity": {
+    "1000": 0.3,
+    "2000": 0.3,
+    "4000": 0.55,
+    "6000": 0.55
+  },
+  "hospital_optimal_threshold": 0.3,
+  "home_optimal_threshold": 0.45,
+  "scenario_optimal_threshold": {
+    "Cool": 0.4,
+    "Base": 0.45,
+    "Hot": 0.55
+  }
+}
